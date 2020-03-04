@@ -1,6 +1,5 @@
 const util = require('util');
 const fs = require('fs');
-const earthRadiusKm = 6371;
 
 /**
  * checkLatitudes - Calcula se a latitude está dentro dos ranges
@@ -37,6 +36,7 @@ const convertRad = (n)=> {(n * Math.PI) / 180};
  * @return {number} Distância entre os dois pontos em km.
  */
 const calcularDistancia = (l1Radianus,b1Radianus,l2Radianus,b2Radianus) => {
+    const earthRadiusKm = 6371;
     let lambda = Math.acos(
         Math.sin(l1Radianus) * Math.sin(l2Radianus) +
         Math.cos(l1Radianus) *
@@ -74,7 +74,7 @@ function doAllStuff(l1, b1, l2, b2) {
  const distanceBetweenTwoPoints = calcularDistancia(l1Radianus,b1Radianus,l2Radianus,b2Radianus);
 
 
- //appendFilePromisified('database.txt', `p1(${l1}, ${b1}) p2(${l2}, ${b2}) d= ${distanceBetweenTwoPoints}KM\n`,);
+ appendFilePromisified('database.txt', `p1(${l1}, ${b1}) p2(${l2}, ${b2}) d= ${distanceBetweenTwoPoints}KM\n`,);
 
  return distanceBetweenTwoPoints;
 }

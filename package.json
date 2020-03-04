@@ -4,7 +4,7 @@
   "description": "Solução para o teste da RESTOQUE",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "/node_modules/.bin/jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/zaozbr/Solu--o-DoAllStuff#readme",
   "devDependencies": {
     "jasmine": "^3.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
   }
 }

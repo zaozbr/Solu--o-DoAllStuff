@@ -74,7 +74,7 @@ function doAllStuff(l1, b1, l2, b2) {
  const distanceBetweenTwoPoints = calcularDistancia(l1Radianus,b1Radianus,l2Radianus,b2Radianus);
 
 
- appendFilePromisified('database.txt', `p1(${l1}, ${b1}) p2(${l2}, ${b2}) d= ${distanceBetweenTwoPoints}KM\n`,);
+ //appendFilePromisified('database.txt', `p1(${l1}, ${b1}) p2(${l2}, ${b2}) d= ${distanceBetweenTwoPoints}KM\n`,);
 
  return distanceBetweenTwoPoints;
 }

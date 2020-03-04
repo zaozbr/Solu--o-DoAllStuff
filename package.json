@@ -1,0 +1,22 @@
+{
+  "name": "solu--o-doallstuff",
+  "version": "1.0.0",
+  "description": "Solução para o teste da RESTOQUE",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaozbr/Solu--o-DoAllStuff.git"
+  },
+  "author": "Osvaldo Rizzi Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaozbr/Solu--o-DoAllStuff/issues"
+  },
+  "homepage": "https://github.com/zaozbr/Solu--o-DoAllStuff#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}

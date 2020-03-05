@@ -6,9 +6,9 @@
  Clone o repositório
  e rode
 
-npm install
+<code>npm install</code>
 
 
 # Para Rodar os Testes
 
-npm teste
+<code>npm teste</code>

@@ -62,4 +62,4 @@ doAllStuff(−23.618237, −46.635197, −22.9035, −43.2096).then(value =>
 
 # Para Rodar os Testes
 
-<code>npm teste</code>
+<code>npm test</code>
